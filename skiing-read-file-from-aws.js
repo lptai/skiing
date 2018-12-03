@@ -24,7 +24,7 @@ fetch(url)
 
     console.log(
       "Let's sent an email to: ",
-      [longestRoute[0], longestRoute.length, '@redmart.com'].join(''),
+      [longestRoute.length, longestRoute[0], '@redmart.com'].join(''),
     );
   })
   .catch(error => console.log(error));

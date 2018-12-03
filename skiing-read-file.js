@@ -17,6 +17,6 @@ fs.readFile('map.txt', 'utf8', (error, data) => {
 
   console.log(
     "Let's sent an email to: ",
-    [longestRoute[0], longestRoute.length, '@redmart.com'].join(''),
+    [longestRoute.length, longestRoute[0], '@redmart.com'].join(''),
   );
 });
